@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>Mësues</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Paneli i Mësuesit</h2>
+
+<form onsubmit="addActivity(event)">
+  <input type="text" id="activity" placeholder="Emri i veprimtarisë" required>
+  <input type="date" id="date" required>
+  <input type="number" id="hours" placeholder="Orë" required>
+  <input type="number" id="absences" placeholder="Mungesa nxënësish">
+  <button type="submit">Ruaj</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
